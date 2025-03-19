@@ -1,8 +1,6 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "string.h": "c",
-        "typeinfo": "c",
         "memory": "c"
     }
 }
