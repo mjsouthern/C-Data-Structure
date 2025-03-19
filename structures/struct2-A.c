@@ -4,6 +4,7 @@
 #include <string.h>
 
 int main() {
+    
     typedef struct person {
         char fname[50];
         char mname[30];

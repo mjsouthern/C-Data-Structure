@@ -3,6 +3,7 @@
 #include <stdio.h>
 
 int main() {
+    
     struct person {
         char fname[50];
         char mname[30];
