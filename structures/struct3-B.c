@@ -20,7 +20,7 @@ int main() {
 
     // system("clear");
 
-    printf("How many student's record you want to input in the system?: ");
+    printf("How many student's record you want to input in the system?: "); 
     scanf("%d", &numRec);
 
     p p1[numRec];

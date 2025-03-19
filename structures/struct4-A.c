@@ -21,7 +21,7 @@ int main() {
     strcpy(p1.address, "Brgy 7. Nasipit, Agusan del Norte");
     p1.age = 27;
 
-    modifyRecord(p1); // passing the instance og person structure 'p1' to a function, by value.
+    modifyRecord(p1); // passing the instance of person structure 'p1' to a function, by value.
 
     printf("First Name: %s\n", p1.fname);
     printf("Middle Name: %s\n", p1.mname);

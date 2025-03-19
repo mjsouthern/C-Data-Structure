@@ -9,9 +9,9 @@ int main() {
         char lname[50];
         char address[100];
         int age;
-    } p;
+    } person_alias;
 
-    p p1; // create an instance of 'person' structure using p
+    person_alias p1; // create an instance of 'person' structure using p
 
     printf("Enter First Name: ");
     gets(p1.fname);
