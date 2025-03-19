@@ -3,15 +3,16 @@
 #include <stdio.h>
 #include <string.h>
 
-struct person {
-    char fname[50];
-    char mname[30];
-    char lname[50];
-    char address[100];
-    int age;
-};
 
 int main() {
+
+    struct person {
+        char fname[50];
+        char mname[30];
+        char lname[50];
+        char address[100];
+        int age;
+    };
 
     struct person pr; // create an instance of person structure
 
