@@ -23,6 +23,8 @@ int main() {
     printf("How many student's record you want to input in the system?: "); 
     scanf("%d", &numRec);
 
+    getchar();
+    
     p p1[numRec];
 
     for(int i=0 ; i<numRec ; i++) {
